@@ -55,7 +55,7 @@ class DiariesController extends AppController
             if ($this->Diaries->save($diary)) {
                 debug($this->request->data);
                 $this->Flash->success(__('Your article has been saved.'));
-                return $this->redirect(['action' => 'index']);
+                return $this->redirect(['action' => 'mypage']);
             }
             $this->Flash->error(__('Unable to add your article.'));
         }
