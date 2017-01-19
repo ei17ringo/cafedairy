@@ -1,0 +1,319 @@
+/*home画面*/
+.services {
+  position: relative;
+  padding: 30px;
+  padding-top: 90px;
+  margin-top: 60px;
+  background: #fff;
+  border: 1px solid #7b5544;
+  float: left;
+  width: 100%;
+}
+@media screen and (max-width: 992px) {
+  .services {
+    margin-bottom: 60px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .services {
+    margin-bottom: 30px;
+  }
+}
+.services span {
+  display: block;
+  position: absolute;
+  top: -50px;
+  left: 0;
+  width: 100%;
+}
+.services span i {
+  font-size: 60px;
+  padding: 35px;
+  color: #7b5544;
+  background: #fff;
+  border: 1px solid #7b5544;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.services h3,p{
+  color: #7b5544;
+}
+
+/*Mypage*/
+
+body {
+  margin: 0px;
+  background-color: #fffff9;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+h1 {
+  color: #7b5544;
+}
+
+.navbar {
+  height: 120px;
+  border-bottom: 1px solid #dddddd;
+  background-color: #7b5544;
+}
+
+.header-left {
+  float: left;
+  padding: 38px 60px;
+  color: #fffff9;
+  font-size: 30px;
+}
+
+.header-right {
+  float: right;
+  color: #fffff9;
+}
+
+.header-right p {
+  float: left;
+  padding: 25px 30px;
+  margin: 20px 0;
+  border-left: 1px solid #dddddd;
+}
+
+.selected {
+  color: #ED7000;
+}
+
+.main {
+  width: 1300px;
+}
+
+.footer {
+  height: 200px;
+  clear: left;
+  border-top: 1px solid #dddddd;
+  background-color: #7b5544;
+}
+
+.footer {
+  padding: 30px;
+}
+
+.footer-top {
+  text-align: center;
+}
+
+.footer-top li {
+  display: inline;
+  margin-right: 40px;
+  margin-bottom: 5px;
+  color: #fffff9;
+}
+
+.like-box {
+  float: left;
+  padding: 30px;
+}
+
+.sidebar {
+  height: 600px;
+  width: 250px;
+  float: left;
+  padding: 30px;
+  
+}
+
+.ana {
+  color: #6c3524;
+  font-size: 16px;
+  margin: 0px;
+}
+
+.sidebar h2 {
+  color: #7b5544;
+  margin-top: 30px;
+}
+
+.sidebar li {
+  color: #6c3524;
+  padding: 5px;
+  margin-bottom: 8px;
+  border-bottom: 1px dotted #808080;
+}
+
+.contents {
+  width: 900px;
+  float: left;
+  padding: 20px;
+  margin-top: 45px;
+}
+
+.contents-top {
+  color: #7b5544;
+}
+
+.contents-item {
+  padding-left: 100px
+  height: 180px;
+  border: 1px solid #dcdcdc;
+}
+
+.contents-item h1 {
+  color: #be8f68;
+  margin: 20px;
+}
+
+.contents-item img {
+  color: #7b5544;
+  margin-left: 40px;
+  margin-top: 25px;
+  float: left;
+}
+
+.contents-item h2 {
+  color: #7b5544;
+  margin-top: 68px;
+  margin-left: 80px;
+}
+
+.contents-item p {
+  margin-left: 700px;
+}
+
+/**, *:before, *:after {
+  box-sizing: content-box;
+}*/
+
+/*view.phpのスタイル*/
+#view-container {
+  margin-bottom: 500px;
+}
+
+.contents li{
+  display: inline !important;
+}
+
+/*#margin {
+  margin: 0px 30px;
+  position: relative;
+  max-width: 100%;
+  width: 100%;
+}*/
+
+.date-pic {
+    width: 50%;
+    margin-top: 20px;
+    position: relative;
+    height: 400px;
+    min-height: 300px;
+    background: url(/cake/webroot/img/sample_coffee.JPG) no-repeat center center;
+    background-size: cover;
+    float: left;
+    border-radius: 10px;
+}
+
+.date-pic h1 {
+  text-shadow: rgba(0, 0, 0, .2) 3px 3px 3px;
+  font-family: 'Playfair Display', serif;
+  color: #fffff9;
+}
+
+@media (max-width: 1170px) {
+  .date-pic {
+      height: auto;
+      width: 100%;
+  }
+}
+
+.date-info {
+  width: 40%;
+  margin-top: 20px;
+  height: 400px;
+  float: left;
+  vertical-align: middle;
+}
+
+@media (max-width: 1170px) {
+  .date-info {
+      height: auto;
+      width: 100%;
+  }
+}
+
+.info-list {
+  list-style: none;
+  padding: 45px 0 50px 30px;
+}
+
+.info-list li {
+  color: #fffff9;
+  font-size: 22px;
+  padding: 0.5em 0;
+  font-weight: 100;
+}
+
+.info-list li i {
+  background-color: #7b5544; 
+  display: table-cell;
+  line-height: 1.8;
+  width: 81px;
+  height: 81px;
+  text-align: center;
+  font-size: 45px;
+  border-radius: 50%;
+  margin: 0;
+  vertical-align: middle;
+}
+
+.info-list li span {
+  color: #7b5544;
+  padding: 0px 0px 0px 20px;
+  display: table-cell;
+  vertical-align: middle;  
+}
+
+/*addページ*/
+legend {
+  color: #7b5544;
+}
+
+.submit {
+  float: right;
+} 
+
+.form-group {
+  padding-bottom: 37px;
+}
+
+.btn-primary {
+  margin-top: 100px;
+  background-color: #98605e;
+  border-color: #98605e;
+  color: #fffff9;
+}
+
+.btn-primary:hover {
+  background-color: #7b5544;
+  border-color: #7b5544;
+  color: #fffff9; 
+}
+
+/*calendar*/
+/* 日曜日 */
+.fc-sun {
+    color: #98605e;
+    background-color: #fff0f0;
+}
+ 
+/* 土曜日 */
+.fc-sat {
+    color: #98605e;
+    background-color: #fdede4;
+}
