@@ -72,7 +72,7 @@
           <div class="services">
             <span><i class="fa fa-line-chart" style="padding:38px 35px";></i></span>
             <br>
-            <h3>Improve</h3>
+            <h3>To Improve your skill</h3>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
           </div>
         </div>
@@ -81,7 +81,7 @@
             <span><i class="fa fa-coffee" aria-hidden="true" style="padding:38px 35px";></i>
             </span>
             <br>
-            <h3>食べてみる</h3>
+            <h3>Go to cafe!</h3>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
           </div>
         </div>
@@ -90,7 +90,7 @@
             <span><i class="fa fa-pencil" aria-hidden="true" style="padding:38px 43px";></i>
             </span>
             <br>
-            <h3>投稿してみる</h3>
+            <h3>Write dairy</h3>
             <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics.</p>
           </div>
         </div>
